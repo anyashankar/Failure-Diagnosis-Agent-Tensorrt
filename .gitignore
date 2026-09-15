@@ -1,0 +1,8 @@
+*.onnx
+*.cache
+*.log
+agent_memory.json
+notifications.log
+__pycache__/
+*.pyc
+.env
