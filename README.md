@@ -4,8 +4,6 @@ An autonomous agent (Gemini 3.5 Flash) that diagnoses failed TensorRT builds,
 applies targeted patches, rebuilds, and validates latency/accuracy — closing
 the loop without human intervention.
 
-Built for the "All Things Agentic" hackathon (Taskmaster track).
-
 ## Components
 - `gemini_agent.py` — core diagnose → patch → rebuild → validate loop
 - `apply_patch.py` — known-fix patch functions (workspace, optimization profile, INT8 calibration, naive FP16 baseline)
